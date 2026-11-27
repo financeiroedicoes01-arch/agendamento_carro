@@ -1,0 +1,11 @@
+{
+  "id":"/", "name":"Agendamento de carros · Edições Shalom", "short_name":"Carros Shalom",
+  "description":"Solicite e acompanhe o uso dos carros das Edições Shalom.",
+  "lang":"pt-BR", "start_url":"/", "scope":"/", "display":"standalone",
+  "background_color":"#f6f7f9", "theme_color":"#01478d",
+  "icons":[
+    {"src":"/icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"/icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"/icons/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
+}

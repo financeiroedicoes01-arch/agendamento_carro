@@ -1,0 +1,40 @@
+{
+  "name": "agendamento-edicoes-shalom",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "test:e2e": "playwright test",
+    "check": "tsc -b",
+    "format": "prettier --write src tests netlify scripts *.json *.ts *.html README.md",
+    "push:keys": "web-push generate-vapid-keys"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.119.2",
+    "date-fns": "4.4.0",
+    "date-fns-tz": "3.2.0",
+    "lucide-react": "1.81.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "web-push": "4.0.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.6.0",
+    "@playwright/test": "1.65.1",
+    "@types/node": "26.6.11",
+    "@types/react": "19.3.3",
+    "@types/react-dom": "19.3.0",
+    "@types/web-push": "3.6.4",
+    "@vitejs/plugin-react": "6.3.0",
+    "netlify-cli": "27.20.1",
+    "prettier": "3.10.1",
+    "sharp": "0.35.5",
+    "supabase": "3.4.0",
+    "typescript": "5.9.3",
+    "vite": "8.4.0"
+  }
+}

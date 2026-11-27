@@ -1,0 +1,3 @@
+-- Sem dados reais ou contas fictícias em produção.
+-- Cadastre as unidades, os responsáveis e os carros pela interface administrativa.
+-- Os dados da demonstração ficam exclusivamente em src/demo/seed.sql.
